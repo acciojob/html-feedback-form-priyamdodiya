@@ -8,7 +8,20 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<form method="POST">
+	<label for="name">Name</label>
+		<input type="text" id="name" required minlength="3" maxlength="50"/><br><br>
+
+	<label for="portfolio">Portfolio</label>
+	<input type="url" required minlength="3" maxlength="50"/><br><br>
+
+	<label for="favColor">Favorite Color</label>
+	<input type="color" id="favColor" required><br><br>
+
+	<label for="likeness">likeness</label>
+	<input type="Range" id="likeness" min="1" max="100">
+	</form>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
